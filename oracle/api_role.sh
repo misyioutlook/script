@@ -6,12 +6,12 @@ GREEN="\e[32m"
 RESET="\e[0m"
 # 参数
 export compartment_id=""     # 租户OCID
-export group_name="Group_for_Api_used"    # 组名称
+export group_name="group_for_api_used"    # 组名称
 export group_des="这个用户组是给api使用的,权限会受控,防止api操作用户类权限"    # 组描述
-export policy_name="Policy_for_Api_used"   # 策略名称
+export policy_name="policy_for_api_used"   # 策略名称
 export policy_des="这个策略是给api使用的,权限会受控,防止api操作用户类权限"    # 策略描述
 export policy_file="file://statements.json" # 策略语句文件
-export user_name="User_for_Api_used"    # 用户名称
+export user_name="user_for_api_used"    # 用户名称
 export user_des="这个用户是给api使用的,权限会受控,防止api操作用户类权限"    # 用户描述
 export user_email="xxxxxx@domain.com"   # 用户邮箱，当type为new时必填
 export type="new"       # 控制面板类型，new或者old
